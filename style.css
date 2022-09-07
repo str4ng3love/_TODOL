@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+body {
+    background-color:darkgrey;
+    min-width: 400px;
+}
+
+
+    
+
+
+.typeSpace {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 2em 2em;
+    
+}
+.taskSpace {
+    display: flex;
+
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 2em 2em;
+    border: 0.1em solid black;
+    
+}
+#addTask {
+font-size: 16px;
+height: 4em;
+width: 40em;
+resize: none;
+padding: 0.5em;
+}
+
+.taskAdded {
+font-size: 16px;
+height: 4em;
+width: 40em;
+resize: none;
+padding: 0.5em;
+margin: 1em 0;
+}
+
+#addBtn {
+    font-weight: bold;
+    height: 4.5em;
+    width: 5em;
+    align-self: center;
+    padding: 0 1em;
+    margin:0 1em;
+}
+.deleteBtn {
+    font-weight: bold;
+    height: 4.5em;
+    width: 5em;
+    align-self: center;
+    justify-self: right;
+
+    margin:0 1em;
+}
+.editBtn {
+    font-weight: bold;
+    height: 4.5em;
+    width: 5em;
+    align-self: center;
+    justify-self: right;
+    margin:0 1em;
+}
+.applyBtn {
+    font-weight: bold;
+    height: 4.5em;
+    width: 5em;
+    align-self: center;
+    justify-self: right;
+
+    margin:0 1em;
+}
+@media  (min-width: 800px){
+    #wrapper {
+        margin: 0 auto;
+        overflow: auto;
+        height: 100%;
+        width: 80%;
+        background-color: white;
+    }
+    #addBtn{
+        padding: unset;
+    }
+    .taskSpace{
+        border:unset;
+        
+    }
+}
